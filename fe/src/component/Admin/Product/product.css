@@ -1,0 +1,13 @@
+.form-group label {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-pro {
+    margin: 0px 5px;
+}
+
+.tieude-list {
+    display: flex;
+    justify-content: space-between;
+}

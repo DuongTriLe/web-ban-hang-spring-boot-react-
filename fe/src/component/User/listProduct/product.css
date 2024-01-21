@@ -1,0 +1,281 @@
+.name-typeProduct {
+    margin-left: 27px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(245, 68, 28);
+}
+
+.name-typeProduct p {
+    font-weight: 600;
+}
+
+.category-List,
+.show-all {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+}
+
+.category-item p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timKiem h4 {
+    margin-top: 30px;
+}
+
+.danhMuc span,
+.noiBan span {
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+    display: block;
+}
+
+.timKiem-item {
+    padding-bottom: 10px;
+}
+
+.timKiem-item a {
+    color: black;
+    font-weight: 500;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.timKiem-item p {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.timKiem-item a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.home-filter {
+    padding: 12px 22px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.04);
+    align-items: center;
+    border-radius: 2px;
+}
+
+
+
+.span-filter {
+    color: #666666;
+    font-size: 17px;
+    margin-right: 16px;
+}
+
+.home-filter-btn {
+    margin-right: 12px;
+    min-width: 90px;
+}
+
+.select-price {
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    min-width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.select-price-lable {
+    font-size: 17px;
+}
+
+.select-price-icon {
+    font-size: 17px;
+    color: rgb(131, 131, 131);
+    top: 1;
+
+}
+
+.select-price-list {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    left: 0;
+    border-radius: 2px;
+    background-color: white;
+    padding: 8px 16px;
+    list-style: none;
+    display: none;
+    z-index: 10;
+}
+
+.select-price-list-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #4A4A4A;
+    display: block;
+    padding: 4px 0;
+}
+
+.select-price-list-link:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.select-price:hover .select-price-list {
+    display: block;
+}
+
+
+
+
+
+
+
+.home-product-item {
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    margin-left: 5px;
+
+}
+
+.home-product-item-img img {
+    height: 189px;
+    width: 100%;
+    background-size: contain;
+}
+
+.home-product-item-img:hover {
+    opacity: 0.7;
+}
+
+.home-product-item-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: RGB(158 154 164);
+    line-height: 1.8rem;
+    margin: 10px 10px 5px;
+    overflow: hidden;
+
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+}
+
+.home-product-price {
+    display: flex;
+    /* thẳng theo chân dòng */
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.product-old {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #666;
+    text-decoration: line-through;
+}
+
+.product-new {
+    font-size: 17px;
+    color: rgb(191, 20, 20);
+    margin-left: 6px;
+}
+
+.home-product-action {
+    display: flex;
+    justify-content: space-between;
+    margin: 9px 10px 0;
+}
+
+.home-product-like {
+    font-size: 1.4rem;
+}
+
+.home-product-YeuThich {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    color: white;
+    background-color: rgb(238, 75, 43);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.6rem;
+    padding-right: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+
+
+.home-product-YeuThich i {
+    font-size: 0.9rem;
+    margin: 0 2px 0 5px;
+}
+
+.home-product-Sale {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 36px;
+    background-color: rgb(255, 211, 59, 0.9);
+    text-align: center;
+    line-height: 14px;
+}
+
+.product-giamGia {
+    color: #f4471e;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+.product-giamGia-label {
+    font-size: 15px;
+    color: white;
+
+
+}
+
+.home-product-Sale::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    /* trên 0, trái phải 20, dưới 6 */
+    border-width: 0 20px 10px;
+    border-style: solid;
+    border-color: transparent rgb(255, 211, 59, 0.9) transparent rgb(255, 211, 59, 0.9);
+}
+
+.selected {
+    color: #f4471e;
+    font-weight: 600;
+}
